@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.page{
+	width:80%;
+	margin:0 auto;
+	border: 1px solid blue;
+}
+
+.menu{
+	height:100px;
+	background-color: #D6E9FE;
+	color:black;
+	border: 1px solid blue;
+	background-position:center;
+}
+
+img#menu-pic{
+	width:50px;
+}
+
+.sidebar{
+	height:500px;
+	width:30%;
+	background-color: #D6E9FE;
+	color:black;
+	float: left;
+	border: 1px solid blue;
+}
+
+ul{
+	width:80%;
+	margin: 0px auto;
+}
+
+.content{
+	height:500px;
+	width:70%;
+	background-color: black;
+	color:Black;
+	float:left;
+	border: 1px solid blue;
+	background: url(../images/office2.jpg);
+	background-position:center;
+}
+
+.footer{
+	overflow: auto;
+	background-color: #D6E9FE;
+	width:100%;
+	clear:both;
+	border: 1px solid blue;
+	margin:1px auto;
+	padding:10px;
+}
+
+.column{
+	background-color: #B2D6FF; 
+	height:160px;
+	width:30%;
+	margin:20px 1.5%;
+	float:left;
+}
+
+img.avatar{
+	width:30%;
+	float:left;
+	padding:10px;
+	margin:10px;
+	border-radius: 50%;
+	display:inline-block;
+}
+
+h4.username{
+	width:50%;
+	height:30%;
+	padding:10px;
+	display:inline-block;
+}
+
+p.comments{
+	width:50%;
+	height:70%;
+	font-size:12px;
+	padding:5px;
+	display:inline-block;
+}
+
+h1{
+	text-align:center;
+	padding:10px;
+	margin:10px;
+}
+
+h3{
+	padding:10px;
+}
